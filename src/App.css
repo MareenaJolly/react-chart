@@ -1,0 +1,26 @@
+.App {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dataCard {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 250px;
+  overflow: hidden;
+}
+
+
+.revenueCard{
+  width: 84%;
+}
+
+.customerCard, .categoryCard{
+  display: inline-block;
+  margin: 10px;
+  width: 40%;
+  float: left;
+}
